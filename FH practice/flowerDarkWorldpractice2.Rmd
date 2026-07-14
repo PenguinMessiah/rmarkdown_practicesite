@@ -1,0 +1,69 @@
+---
+title: "An Introduction to Seven Flowers"
+author: Felipe H.
+date: 7/8/26
+output: 
+  html_document: 
+    toc: true
+    toc_float: true
+    highlight: zenburn
+    theme: darkly
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(askpass)
+library(knitr)
+library(readxl)
+library(ggplot2)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+# Introduction
+
+[Placeholder]
+
+## Orange for reference
+
+![](https://deltarune.wiki/images/Orange_overworld.png?cb=dk0kox&h=thumb.php&f=Orange_overworld.png){width="142" height="25"}
+
+This is a short practice page based on seven flowers.
+
+# General information: Table 1
+
+```{r flowerDATA, echo=FALSE}
+flowers <- c("Flowery", "Aqua", "Seth","Green","Orange","Yellow","Blue")
+souls <- c("Determination","Patience","Perseverance","Kindness","Bravery","Justice","Integrity")
+favNum <- c("7","23","41","56","2","71","89")
+omegaFlowery <- data.frame(flowers, souls, favNum)
+print(omegaFlowery)
+```
+
+# General information: Why are flowers important?
+
+Flowers are important for a variety of reasons, including being an essential food source for a variety of animals by attracting pollinators, but also for human well being, as they provide distinctive colors and scents that we often enjoy and appreciate.
+
+# Bar Chart 2
+
+```{r value-chart}
+read_excel("Holistic Data Set.xlsx")
+df <- read_excel("Holistic Data Set.xlsx")
+plot(df$Temp~df$pH)
+```
+
+# This isn't working fix on Tuesday
+```{r base-bar-chart, echo=FALSE}
+Temp <- c(30.6, 30.7, 26.8, 28, 28)
+Movement <- c("Lo", "Len")
+barplot(Temp,
+        names.arg = Movement,
+        col = "seagreen",
+        main = "TheYeast",
+        xlab = "Up",
+        ylab = "Down")
+```
+
+
+

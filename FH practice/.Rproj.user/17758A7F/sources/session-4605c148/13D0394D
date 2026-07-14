@@ -1,0 +1,26 @@
+{
+    "id": "13D0394D",
+    "path": "~/GitHub/rmarkdown_practicesite/FH practice/ggplot2.R",
+    "project_path": "ggplot2.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1784036968342.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "14,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1784037322,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1784037722739,
+    "read_only": false,
+    "read_only_alternatives": []
+}

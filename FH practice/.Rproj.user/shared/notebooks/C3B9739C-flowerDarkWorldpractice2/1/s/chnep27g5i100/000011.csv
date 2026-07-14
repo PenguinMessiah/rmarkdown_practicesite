@@ -1,0 +1,5 @@
+"0","df <- read_excel(""Holistic Data Set.xlsx"")"
+"2","New names:"
+"0","plot(df$Lat~df$Long)"
+"2","Warning: NAs introduced by coercion"
+"2","Warning: NAs introduced by coercion"

@@ -1,0 +1,5 @@
+"0","flowers <- c(""Flowery"", ""Aqua"", ""Seth"",""Green"",""Orange"",""Yellow"",""Blue"")"
+"0","souls <- c(""Determination"",""Patience"",""Perseverance"",""Kindness"",""Bravery"",""Justice"",""Integrity"")"
+"0","favNum <- c(""7"",""23"",""41"",""56"",""2"",""71"",""89"")"
+"0","omegaFlowery <- data.frame(flowers, souls, favNum)"
+"0","print(omegaFlowery)"
