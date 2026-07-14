@@ -8,4 +8,9 @@ ggplot(data = mpg) +
 # ggplot (data = <DATA>) +
   # <GEOM_FUNCTION>(mapping= aes(<MAPPINGS>))
 
+view (hwy)
 
+ggplot(data = mpg)+
+  geom_point(mapping = aes(x=hwy, y= cyl))
+
+             
